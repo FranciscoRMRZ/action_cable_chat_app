@@ -1,0 +1,6 @@
+1. Make a channel to handle WebSocket connections on the server side (local
+server in development, Heroku in production).
+2. Make a CoffeeScript program (room.coffee) for the chat room on the
+client side (web browser).
+3. Update the Messages controller create action to broadcast changes to
+the channel instead of redirecting or rendering
